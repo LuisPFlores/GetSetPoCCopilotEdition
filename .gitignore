@@ -1,77 +1,42 @@
-# Python
+# Secrets — never commit
+.env
+
+# Upstream dependency (installed via pip install -e ./GetSetPOx_repo)
+GetSetPOx_repo/
+
+# Python build artefacts
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyo
+*.pyd
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
 *.egg
-MANIFEST
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.whl
 
-# Virtual Environment
-venv/
-ENV/
-env/
+# Virtual environments
 .venv/
+venv/
+env/
+ENV/
 
-# PyCharm
-.idea/
-
-# VS Code
-.vscode/
-*.code-workspace
-
-# Testing
+# Test / coverage
 .pytest_cache/
 .coverage
 htmlcov/
 .tox/
-.nox/
 
-# Logging
-*.log
-logs/
-
-# Environment variables
-.env
-.env.local
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
 
 # OS
 .DS_Store
 Thumbs.db
-*.swp
-*.swo
-*~
-
-# Distribution
-*.tar.gz
-*.whl
-
-# MyPy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Ruff
-.ruff_cache/
-
-# Jupyter
-.ipynb_checkpoints
-
-# pyenv
-.python-version
